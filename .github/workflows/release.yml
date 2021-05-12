@@ -30,7 +30,7 @@ jobs:
           password: ${{ secrets.ROBOT_TOKEN_DOCKERHUB }}
 
       - name: Git Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v2.3.4
 
       - name: Rake Variables
         run: |
